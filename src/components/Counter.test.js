@@ -16,4 +16,3 @@ test('After I click button the title will change to [當前點擊次數1]', asyn
   const title = getByTestId('currentNumber');
   expect(title.innerHTML).toBe('當前點擊次數1');
 });
-
